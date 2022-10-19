@@ -40,6 +40,32 @@
 
 
 .navIndex {
-  display: flex;
-  justify-content: space-around;
+  box-shadow: 0px 0px 10px 1px rgb(161, 159, 159);
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    align-items: center;
+    
 }
+
+ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+li {
+  margin: 5px 10px;
+}
+
+
+
+.greetingIndex{
+  text-align: center;
+    font-size: 2.5em;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #941e1efd;
+    text-shadow: 3px 5px 5px;
+    margin: 1.5em auto 1.5em auto;
+}
+
