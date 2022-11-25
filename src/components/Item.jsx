@@ -8,11 +8,13 @@ const Item = ({products}) => {
           src={products.img}
           width="200px"
           alt= {products.title}
+          className= 'imgCart'
           />
           <article>
             <h2 className='title'>{products.title}</h2>
             <h3>Precio: ${products.price}.-</h3>
-            <Link to= {`/detail/${products.id}`}>Ver detalle</Link>
+            <Link to= {`/detail/${products.id}`}
+           className='detalleProducto' >Ver detalle del producto</Link>
           </article>
         </div>
   )

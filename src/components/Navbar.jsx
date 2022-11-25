@@ -9,8 +9,9 @@ return (
     <ul>
         <NavLink className='links' to="/category/segundamano">Segunda mano</NavLink>
         <NavLink className='links' to="/category/nuevo">Nuevos</NavLink>
+        <NavLink className='links' to="/checkout">Contacto</NavLink>
     </ul>
-    <Link to="/CartWidget"><CartWidget /></Link>   
+    <Link to="/Cart"><CartWidget /></Link>   
 </nav>
 );
 };

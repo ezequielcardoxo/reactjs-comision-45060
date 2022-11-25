@@ -3,7 +3,7 @@ export const products =  [
     id: 1,
     title: 'David Hosp - El Inocente',
     price: 500,
-    stock: 1,
+    stock: 3,
     category: 'nuevo',
     img: 'https://res.cloudinary.com/dshjvseys/image/upload/v1667414592/ReactJS/DH_orizd4.jpg',
 },
