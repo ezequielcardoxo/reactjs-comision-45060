@@ -20,5 +20,5 @@ const Item = ({products}) => {
   )
 }
 
-export default Item
+export default Item;
 

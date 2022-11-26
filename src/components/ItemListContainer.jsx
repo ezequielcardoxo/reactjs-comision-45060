@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 //import { getProducts } from '../moks/products';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
-import {collection,getDocs, query, where } from 'firebase/firestore';
+import {collection, getDocs, query, where } from 'firebase/firestore';
 import PulseLoader from "react-spinners/PulseLoader";
 import { db } from '../services/firebaseConfig';
 

@@ -58,7 +58,7 @@ const Form = () => {
     if (ordenId) {
         return (
           <div className='container text-center p-5'>
-          <h4>Gracias por tu compra {name}! El número de seguimiento es: <strong>{ordenId}</strong></h4>
+          <h4>Gracias {name} por elegirnos! El número de seguimiento es: <strong>{ordenId}</strong></h4>
           </div>
       );
       

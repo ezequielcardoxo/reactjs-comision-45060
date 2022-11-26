@@ -8,7 +8,7 @@ import {collectionProd } from './services/firebaseConfig'
 import PulseLoader from "react-spinners/PulseLoader";
 
 const ItemDetailContainer = () => {
-  const [item, setItem] = useState({})
+  const [item, setItem] = useState({});
   const {idProd} = useParams ();
   const [loading, setLoading] = useState(true);
 
@@ -48,4 +48,4 @@ const ItemDetailContainer = () => {
   )
 }
 
-export default ItemDetailContainer
+export default ItemDetailContainer;

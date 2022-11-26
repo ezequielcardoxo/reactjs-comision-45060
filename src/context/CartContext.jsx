@@ -27,7 +27,7 @@ const CartProvider = ({children}) => {
     const sumarCantidad = (itemExtra, cantidad) => {
 
         const cartActualizado = cart.map((prodCart) => {
-            if (prodCart.id === itemExtra.id) {
+            if (itemExtra.id === prodCart.id) {
                 const productActualizado = {
                     ...prodCart,
                     cantidad: prodCart.cantidad + cantidad,
@@ -64,7 +64,7 @@ const CartProvider = ({children}) => {
         let total = 0
         const copia = [...cart]
         copia.forEach((prod) =>{
-            total += prod.cantidad * prod.price
+            total = total += prod.cantidad * prod.price
         })
         return total
     };

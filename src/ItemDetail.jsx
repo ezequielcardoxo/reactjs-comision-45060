@@ -27,7 +27,7 @@ const ItemDetail = ({item}) => {
         <h3 className='imgDetail'>${item.price}</h3>
 
         {mostrar ? (
-          <ItemCount stock={item.stock} onAdd={onAdd} initial = {cantidad}/>
+          <ItemCount stock={item.stock} onAdd={onAdd} initial={cantidad}/>
         ) : (
           <Link to="/Cart" className='irCarro'>Ir al Carrito para continuar la compra</Link>
         )
@@ -38,4 +38,4 @@ const ItemDetail = ({item}) => {
   )
 }
 
-export default ItemDetail
+export default ItemDetail;

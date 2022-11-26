@@ -33,4 +33,4 @@ const ItemCount = ({stock, onAdd, initial = 1}) => {
   )
 }
 
-export default ItemCount
+export default ItemCount;
